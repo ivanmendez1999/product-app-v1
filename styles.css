@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+}
+
+.navbar {
+    background-color: #f5e215; 
+}
+
+.card {
+    margin: auto; 
+    margin-top: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card-header {
+    background-color: #007bff; 
+    color: white; 
+    text-align: center; 
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #007bff; 
+    border-color: #007bff; 
+    font-weight: bold; 
+}
+
+.btn:hover {
+    background-color: #0056b3; 
+    border-color: #004085; 
+}
+
+#product-list {
+    margin-top: 20px; 
+}
+
+
+.form-group input[type="number"] {
+    width: 100%; 
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+.form-group span {
+    background-color: #e9ecef;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px 0 0 3px;
+}
+.form-group input {
+    border-radius: 0 2px 2px 0;
+    border-left: none;
+}

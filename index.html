@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>ProductoSafe</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Marlon Ivan Mendez">
+        <link href="./normalize.css" rel="stylesheet">
+        <link href="./styles.css" rel="stylesheet">
+        <!--BOOTSTRAP CDN-->
+        <link href="./bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-light bg-light">
+            <a href="/" class="navbar-brand">
+                ProductoSafe
+            </a>
+        </nav>
+
+        <div class="container">
+            <div id="App" class="row pt-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Agrega un producto</h4>
+                        </div>
+                        <form id="product-form" class="card-body">
+                            <div class="form-group">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="name" placeholder="Nombre del producto" class="form-control"> 
+                            </div>
+                            <div class="form-group">
+                                <label for="nombre">Precio</label>
+                                <span>Q.</span>
+                                <input type="number" step="0.01"
+                                id="price" placeholder="Precio del producto" class="form-control"> 
+                            </div>
+                            <div class="form-group">
+                                <label for="nombre">Año</label>
+                                <input type="number" id="year"
+                                min="2000"
+                                value="2024" max="2030" placeholder="Año" class="form-control"> 
+                            </div>
+                            <input type="submit" value="Guardar" class="btn btn-info btn-block">
+                        </form>
+                    </div>
+                </div>
+                <div id="product-list" class="col-md-8">
+
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>   
+    </body>
+</html>
